@@ -14,12 +14,19 @@ function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
+
 }
 
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
+   nombre= ("Marco");
+   apellido=("Lopez");
+   return(combinarNombres("soy"+ "Marco"+"Lopez"));
+   console.log(combinarNombres)
+
+
 }
 
 function obtenerSaludo(nombre) {

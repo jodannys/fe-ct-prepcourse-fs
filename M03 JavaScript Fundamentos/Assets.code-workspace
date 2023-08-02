@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../Assets"
+		},
+		{
+			"path": "../M01 Instalación de herramientas"
+		},
+		{
+			"path": "../M02 Terminal, Git y Github"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../M04 JavaScript Bucles"
+		},
+		{
+			"path": "../M05 JavaScript Arrays"
+		},
+		{
+			"path": "../M06 JavaScript Objetos"
+		},
+		{
+			"path": "../M07 JavaScript Clases"
+		},
+		{
+			"path": "../M08 JavaScript Callback"
+		},
+		{
+			"path": "../M09 Ejercicios Extra"
+		},
+		{
+			"path": "../node_modules"
+		}
+	]
+}

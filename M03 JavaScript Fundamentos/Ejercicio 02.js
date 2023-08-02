@@ -3,34 +3,53 @@
 
 function devolverString(string) {
    // Debe retornar un string.
-   // Tu código:
+   // Tu código: 
+   return string;
+   var resultado = ("string")
+   console.log(resultado);
 }
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
-   // Tu código:
-}
+   // Tu código: 
+  return x + y;
+   var resultado = suma(5, 3);
+   console.log(resultado);
+   
+   }
+
+
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
+   return x - y;
+   var resultado = resta(5, 8);
+   console.log(resultado);
 }
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
+   return x / y; 
+   var resultado = divide(4, 9);
+   console.log(resultado);
 }
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
+   return x * y;
+   var resutado = multiplica(4, 9);
 }
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
+   return x % y;
+   var resultado = obtenerResto(4, 9);
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

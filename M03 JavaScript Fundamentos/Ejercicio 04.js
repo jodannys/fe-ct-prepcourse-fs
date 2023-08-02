@@ -6,6 +6,9 @@
 function elevarAlCuadrado(num) {
    // Retorna el valor de "num" elevado al cuadrado.
    // Tu código:
+   Math.pow(2);
+   return(num)
+   console.log(elevarAlCuadrado)
 }
 
 function elevarAlCubo(num) {
@@ -16,11 +19,12 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
    // Retorna el valor de "num" elevado al exponente "exponent".
    // Tu código:
+   
 }
 
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.
-   // Tu código:
+   // Tu código: 
 }
 
 function redondearHaciaArriba(num) {
