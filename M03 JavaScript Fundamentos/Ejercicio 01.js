@@ -20,7 +20,8 @@ const nuevaResta = 10 - 7 === 3;
 const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático.
-const nuevoModulo = 21 % 5 === 0;
+const nuevoModulo = 21 % 5 === 1;
+console.log(nuevoModulo)
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {

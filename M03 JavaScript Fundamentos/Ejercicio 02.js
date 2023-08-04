@@ -4,10 +4,10 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código: 
-   return string;
-   var resultado = ("string")
-   console.log(resultado);
+   return (string);
 }
+   console.log(devolverString("Henry"));
+
 
 // ⛔️ "X" e "Y" son números.
 
