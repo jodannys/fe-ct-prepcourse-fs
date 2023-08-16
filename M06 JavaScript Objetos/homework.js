@@ -12,7 +12,7 @@ function crearGato(nombre, edad) {
    var propiedades = {
       "nombre": nombre,
       "edad": edad,
-      "meow": function () {
+      meow: function () {
          return "Meow!";
       }
    };
@@ -40,12 +40,8 @@ function agregarPropiedad(objeto, propiedad) {
    // Esta propiedad será igual al valor `null`.
    // Retornar el objeto.
    // Tu código:
-   var parametro = {
-      "x": 1,
-      "y": 2,
-      "z": null,
-   }
-   return parametro
+   objeto[propiedad]=null;
+   return objeto;
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -75,9 +71,8 @@ function tieneEmail(objetoUsuario) {
    // Verifica si el "objetoUsuario", en su propiedad "email", posee un valor definido.
    // En ese caso retornar true. Caso contrario, false.
    // Tu código:
-   return objetoUsuario.hasOwnProperty("email")
-      && objetoUsuario.email !== undefined
-      && objetoUsuario.email !== null;
+   if(objetoUsuario.email)return true;
+   else return false;
 }
 
 function tienePropiedad(objeto, propiedad) {
