@@ -236,10 +236,19 @@ function breakStatement(num) {
    // Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
-   // Tu código:
-   
-
+   // Tu código: 
+   var array = [];
+   var iterador = 0;
+   while (iterador < 10) {
+      num = num + 2;
+      if (num === iterador) break;
+      array.push(num)
+      iterador++;
+   }
+   if (iterador < 10) return "Se interrumpió la ejecución"
+return array;
 }
+
 
 function continueStatement(num) {
    // Iterar en un bucle aumentando en 2 el número recibido hasta un límite de 10 veces.
@@ -248,6 +257,16 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código: 
+   var array = []
+   var iterador = 0;
+   while (iterador < 10) {
+      iterador++;
+      if (iterador === 5) continue;
+      num = num + 2
+      array.push(num)
+   }
+
+   return array;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
